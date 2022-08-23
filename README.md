@@ -1,1 +1,6 @@
-# rsa
+Videos explaining the program:
+https://youtube.com/playlist?list=PLYyOE2PLVY6xBMTbD-hupZr5sbSiq37aY
+
+It is critical to optimise execution time and memory consumption in the real world. C++ reigns supreme as it amalgamates the best of both the modern OOP world as well as the speed and efficiency of the good old procedural C. As a part of my university coursework I’ve implemented an efficient version of RSA that can generate and handle random primes as large as 2^1024 in a reasonable amount of time. I chose to write the program in C++ as it rivals the performance and efficiency of C while being an OOP language. I’ve implemented the fastest algorithms such as Atkin’s Sieve to filter out primes and the probabilistic Miller-Rabin test to reduce the execution time. I’m also very particular about micro-optimisations such as using bit-shit operator instead of standard division and using the bitwise AND to test whether a number is odd or not. I’ve written the problems I faced while generating random numbers, its effect on performance and the solution I came up with after debugging and consulting stackoverflow. 
+
+My program can generate 2 random prime numbers of the order 2^63 passing through 10 rounds of Rabin-Miller test in about 300ms on an Apple M1 processor.
